@@ -30,6 +30,6 @@ const thoughtSchema = new Schema(
   }
 );
 
-const Thought = model('course', thoughtSchema);
+const Thought = model('thought', thoughtSchema);
 
 module.exports = Thought;
